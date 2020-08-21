@@ -1,3 +1,3 @@
 
 
-more is in [firefly's leetcode](http://fireflying.top/)
+more is in [firefly's blog](http://fireflying.top/)
