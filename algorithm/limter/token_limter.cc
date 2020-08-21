@@ -1,6 +1,6 @@
 #include <sstream>
 
-#include "../../util.h"
+#include "../util.h"
 
 
 class RateLimter {

@@ -1,5 +1,5 @@
 
-#include "../../myheader.h"
+#include "../myheader.h"
 
 
 // --- is this easy?

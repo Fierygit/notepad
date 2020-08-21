@@ -4,14 +4,14 @@
 #  $^	--所有的依赖文件
 #  $< 	--第一个依赖文件。
 
-util = ../../util.o
+util = ../util.o
 thread = -l pthread
 
 target: util rate_limter slid_limter token_limter
 	echo "start to run"
 	echo $^ is made
 util:
-	g++ -c ../../util.cc -o ../../util.o
+	g++ -c ../util.cc -o ../util.o
 
 rate_limter : rate_limter.cc
 	echo "make $@" 
