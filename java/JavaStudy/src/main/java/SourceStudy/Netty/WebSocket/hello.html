@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    var webSocket = new WebSocket("ws://localhost:8888/");
+    webSocket.onmessage = function (ev) {
+        var res = document.getElementById('res');
+        res.value = res.value + "\n" + ev.data;
+        console.log("falid")
+    }
+    webSocket.onopen = function (ev) {
+        var res = document.getElementById('res');
+        res.value = "success!!!\n";
+    }
+    webSocket.close = function (ev) {
+        var res = document.getElementById('res');
+        res.value = res.value + +"close!!!\n";
+    }
+    function send(message) {
+        if (webSocket.readyState === WebSocket.OPEN) {
+            webSocket.send(message);
+
+        } else {
+            alert("未开启");
+        }
+    }
+</script>
+<body>
+<form>
+    <textarea name="message"></textarea>
+    <input type="button" onclick="send(this.form.message.value)" value="send">
+    <br>
+    <textarea id="res"></textarea>
+    <input type="button" onclick="document.getElementById('res').value=''" value="clear">
+</form>
+
+</body>
+</html>
