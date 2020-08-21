@@ -12,17 +12,7 @@ using namespace std;
 
 int nextState[MAXN];
 
-void get(string& str) {
-  int j = -1;
-  nextState[0] = -1;
-  for (int i = 0; i < str.length(); i++) {
-    while (j != -1 && nextState[i] != str[j + 1]) j = nextState[j];
-    if (str[i] == str[j + 1]) {
-      j++;
-    }
-    nextState[i] = j;
-  }
-}
+// 搜索后缀等于前缀， 记录状态
 
 void getNext(string& str) {
   int start = -1;     // 第二行的pattern 从 -1 开始

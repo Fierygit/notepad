@@ -14,6 +14,7 @@
 namespace firefly {  // 防止与math 冲突
 
 #define min(a, b) (a) < (b) ? (a) : (b)
+#define len(arr) (sizeof(arr) / sizeof(int))
 
 }  // namespace firefly
 

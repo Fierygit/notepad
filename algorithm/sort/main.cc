@@ -15,7 +15,7 @@ int *arr;
 int len;
 
 int main() {
-  len = 10000000;
+  len = 1000000;
   arr = new int[len];
 
   for (int i = 0; i < len; i++) {
