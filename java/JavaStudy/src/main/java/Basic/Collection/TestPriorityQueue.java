@@ -16,7 +16,9 @@ public class TestPriorityQueue {
     public static void main(String[] args) {
         Queue<LocalDate> pq = new PriorityQueue<>(2,
                 (a, b) -> {
-                    if (a.getDayOfMonth() == b.getDayOfMonth()) return 0;
+                    if (a.getDayOfMonth() == b.getDayOfMonth()) {
+                        return 0;
+                    }
                     return a.getDayOfMonth() > b.getDayOfMonth() ? -1 : 1;
 
                 });
@@ -25,11 +27,13 @@ public class TestPriorityQueue {
         pq.add(LocalDate.of(1903, 12, 3)); // ]. von Neumann
         pq.add(LocalDate.of(1910, 6, 2)); // K. Zuse
         System.out.println("Iterating over elements...");
-        for (LocalDate date : pq)
+        for (LocalDate date : pq) {
             System.out.println(date);
+        }
 
         System.out.println("Removing elements");
-        while (!pq.isEmpty())
+        while (!pq.isEmpty()) {
             System.out.println(pq.remove());
+        }
     }
 }
