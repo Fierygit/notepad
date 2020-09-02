@@ -11,8 +11,8 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
 
-        String arr1[] = new String[]{"as", "sdf", "dsf", "dfd", "sdf"};
-        String arr2[] = {"as", "sdf", "dsf", "dfd", "sdf", "as"};
+        String[] arr1 = new String[]{"as", "sdf", "dsf", "dfd", "sdf"};
+        String[] arr2 = {"as", "sdf", "dsf", "dfd", "sdf", "as"};
         List<String> test1 = new ArrayList<>(Arrays.asList(arr1));
         List<String> test2 = new ArrayList<>(Arrays.asList(arr2));
 
