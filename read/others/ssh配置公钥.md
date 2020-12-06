@@ -1,12 +1,8 @@
 ---
 title: ssh配置公钥
 date: 2019-10-27
-author: Firefly
-cover: false
-top: false
-toc: true
 categories:
-- 经验
+  - 经验
 tags:
   - 脚本
 ---

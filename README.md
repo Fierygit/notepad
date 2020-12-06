@@ -1,4 +1,7 @@
-
+---
+title: test
+date: 0000-00-00
+---
 # notepad
 
 

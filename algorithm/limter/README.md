@@ -1,8 +1,11 @@
-
+---
+title: limter
+date: 2020-8-1
+---
 
 ### 漏桶算法
 
-![image](assert/rate-limit1.png)
+![image](./assert/rate-limit1.png)
 
 生动形象，容易理解， 往桶里加水的速度大于漏水的速度就超速了， 桶大小表示最大速度大小
 
