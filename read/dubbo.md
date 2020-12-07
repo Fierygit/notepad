@@ -2,6 +2,7 @@
 title: dubbo
 date: 2019-5-1
 author: Firefly
+categories:  read
 tags:
   - RPC
   - dubbo

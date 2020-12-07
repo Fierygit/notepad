@@ -1,5 +1,8 @@
-
-problems:
+---
+title: problem
+date: 0000-00-00
+---
+# problems:
 
 
 ### 1、 含有继承的类的初始化顺序是什么？ 

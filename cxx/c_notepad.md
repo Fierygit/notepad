@@ -8,9 +8,9 @@ cover: false
 coverImg: 
 toc: true
 mathjax: false
-categories: C/C++
+categories: CXX
 tags:
-  - c/c++
+  - CXX
 ---
 
 

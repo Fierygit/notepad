@@ -1,7 +1,7 @@
 ---
 title: Wolrd In Java
 date: 2018-10-28
-categories: JAVA
+categories: java
 tags:
 
   - java

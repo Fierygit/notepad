@@ -1,6 +1,6 @@
 ---
 title: 并查集
-date: 2019-12-28
+date: 2020-3-14
 categories: 
 - 算法
 tag: leetcode

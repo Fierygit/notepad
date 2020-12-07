@@ -1,6 +1,7 @@
 ---
-title: 操作系统大纲
+title: 操作系统学习笔记
 date: 2019-7-1
+categories:  os
 ---
 
 # <center>操作系统复习指南</center>
