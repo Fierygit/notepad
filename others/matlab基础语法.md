@@ -2,11 +2,7 @@
 title: matlab基础语法
 date: 2019-8-22
 author: Firefly
-cover: false
-top: false
-toc: true
-categories:
-- 编程语言
+categories: other 
 tags:
 - matlab 
 - 数学建模 

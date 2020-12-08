@@ -3,7 +3,7 @@ title: 排序
 date: 2019-12-28
 categories: 
 - 算法
-tag: Leetcode
+tag: leetcode
 ---
 ## 排序算法
 

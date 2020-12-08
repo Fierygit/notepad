@@ -2,7 +2,7 @@
 title: Java设计模式
 date: 2019-10-1
 author: Firefly
-categories: JAVA 
+categories: java 
 
 tags:
   - java

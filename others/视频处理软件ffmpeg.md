@@ -2,12 +2,7 @@
 title: ffmpeg
 date: 2019-10-22
 author: Firefly
-top: false
-cover: true
-img: 
-coverImg: 
-toc: true
-mathjax: false
+
 categories: 工具
 
 tags:
