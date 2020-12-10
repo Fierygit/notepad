@@ -1,0 +1,6 @@
+config.MyAutoConfiguration=\
+  component.SpiInterfaceImpl02,\
+  component.Driver,\
+  component.Tree
+
+
