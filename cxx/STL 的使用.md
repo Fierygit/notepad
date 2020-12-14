@@ -1,9 +1,8 @@
 ---
 title: STL 使用
 date: 2018-3-1
-categories: CXX
-tags:
-  - cxx
+categories: ["CXX"]
+tags: ["cxx"]
 ---
 
 
