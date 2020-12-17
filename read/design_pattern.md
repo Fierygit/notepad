@@ -1,12 +1,9 @@
 ---
 title: Java设计模式
-date: 2019-10-1
+date: 2019-10-01
 author: Firefly
-categories: java 
-
-tags:
-  - java
-  - 设计模式
+categories: ["read"] 
+tags: ["java","设计模式"]
 ---
 
 # <center>设计模式</center>

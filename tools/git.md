@@ -1,9 +1,8 @@
 ---
 title: git使用
 date: 2019-09-28
-categories: 
-- 工具
-tag: git
+categories: ["工具"] 
+tag: ["git"]
 ---
 
 Git常用操作，一文打尽

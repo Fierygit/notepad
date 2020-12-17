@@ -1,11 +1,8 @@
 ---
 title: JVM
-date: 2018-5-27
-categories:
-- java
-tags:
-  - JVM 
-  - java
+date: 2018-05-27
+categories: ["java"]
+tags: ["JVM", "java"]
 ---
 
 # <center>JVM</center>

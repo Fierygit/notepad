@@ -1,9 +1,8 @@
 ---
 title: 字符串
-date: 2020-2-24
-categories: 
-- 算法
-tag: 算法
+date: 2020-02-24
+categories: ["算法"]
+tag: ["算法"]
 ---
 # <center> string处理 </center>
 

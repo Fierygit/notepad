@@ -1,9 +1,8 @@
 ---
 title: 面试算法题
-date: 2020-2-28
-categories: 
-- 算法
-tag: 算法
+date: 2020-02-28
+categories: ["算法"]
+tags: ["算法"]
 ---
 ## 常见面试题
 

@@ -1,6 +1,6 @@
 ---
 title: STL 使用
-date: 2018-3-1
+date: 2018-03-01
 categories: ["CXX"]
 tags: ["cxx"]
 ---

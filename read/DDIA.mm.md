@@ -1,8 +1,8 @@
 ---
 title: DDIA
-date: 2020-12-3
-categories: read
-tag: DDIA
+date: 2020-12-03
+categories: ["read"]
+tag: ["DDIA"]
 ---
 
 

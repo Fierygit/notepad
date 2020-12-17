@@ -1,0 +1,33 @@
+# -*- encoding: utf-8 -*-
+"""
+@file: test_def.py
+@time: 2019/9/6 22:57
+@author: Firefly
+@version: 0.1
+"""
+import socket
+
+
+def test():
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # 声明socket类型，同时生成链接对象
+    server.bind(('localhost', 2333))  # 绑定要监听的端口
+    server.listen(5)  # 开始监听 表示可以使用五个链接排队
+    while True:
+        print("wait for connect!!\n")
+        addr = server.accept()
+        print('连接地址：', addr)
+        msg = 'welcome！'  # strip默认取出字符串的头尾空格
+        server.send(msg.encode('utf-8'))  # 发送一条信息 python3 只接收btye流
+        data = server.recv(1024)  # 接收一个信息，并指定接收的大小 为1024字节
+        print('recv:', data.decode())  # 输出我接收的信息
+
+    client.close()  # 关闭这个链接
+
+
+def main():
+    pass
+    test()
+
+
+if __name__ == "__main__":
+    main()

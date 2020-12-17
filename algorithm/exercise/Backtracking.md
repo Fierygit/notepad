@@ -1,9 +1,8 @@
 ---
 title: 回溯
-date: 2019-12-28
-categories: 
-- 算法
-tag: 回溯
+date: 2020-02-28
+categories: ["算法"]
+tags: ["回溯"]
 ---
 
 

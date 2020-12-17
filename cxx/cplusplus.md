@@ -1,6 +1,8 @@
 ---
 title: cplusplus
 date: 2017-11-21
+categories: ["CXX"]
+tags: ["CXX"]
 ---
 [toc]
 

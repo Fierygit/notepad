@@ -1,9 +1,8 @@
 ---
 title: 大数运算
-date: 2020-4-6
-categories: 
-- 算法
-tag: 算法
+date: 2020-04-06
+categories: ["算法"]
+tag: ["算法"]
 ---
 [toc]
 

@@ -1,9 +1,8 @@
 ---
 title: 贪心算法
-date: 2019-12-28
-categories: 
-- 算法
-tag: 贪心
+date: 2020-01-28
+categories: ["算法"]
+tags: ["贪心"]
 ---
 # <center>贪心算法</center>
 

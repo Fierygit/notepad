@@ -1,9 +1,8 @@
 ---
 title: Leetcode100
-date: 2019-12-28
-categories: 
-- 算法
-tag: 算法
+date: 2020-01-08
+categories: ["算法"]
+tag: ["算法"]
 ---
 ## <center>leetcode100 练习</center>
 

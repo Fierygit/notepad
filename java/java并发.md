@@ -1,11 +1,8 @@
 ---
 title: java 并发与实战
-date: 2018-5-27
-categories:
-- java
-tags:
-  - 多线程 
-  - java
+date: 2018-05-27
+categories: ["java"]
+tags: ["多线程", "java"]
 ---
 
 ## <center> java 并发与实战</center>

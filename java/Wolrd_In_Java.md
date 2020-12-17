@@ -1,10 +1,10 @@
 ---
 title: Wolrd In Java
 date: 2018-10-28
-categories: java
-tags:
-  - java
+categories: ["java"]
+tags: ["java"]
 ---
+
 
 # 深入理解Java
 

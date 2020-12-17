@@ -1,11 +1,9 @@
 ---
 title: dubbo
-date: 2019-5-1
+date: 2019-05-01
 author: Firefly
-categories:  read
-tags:
-  - RPC
-  - dubbo
+categories:  ["read"]
+tags: ["RPC","dubbo"]
 ---
 
 

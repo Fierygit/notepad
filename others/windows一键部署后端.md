@@ -1,14 +1,9 @@
 ---
 title: windows的脚本命令一件部署后端服务
-date: 2019-9-11
+date: 2019-09-11
 author: Firefly
-cover: true
-top: false
-toc: true
-categories:
-- 经验
-tags:
-  - 脚本
+categories: ["经验"]
+tags: ["脚本"]
 ---
 
 #### windows的脚本命令一件部署后端服务

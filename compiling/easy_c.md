@@ -1,10 +1,9 @@
 ---
 title: easy_c
-date: 2019-06-5
+date: 2019-11-05
 author: Firefly
-# categories:  编译原理
-# tags:
-#  - 编译原理
+categories:  ["编译原理"]
+tags: ["编译原理"]
 ---
 
 # <center>easy_c</center>

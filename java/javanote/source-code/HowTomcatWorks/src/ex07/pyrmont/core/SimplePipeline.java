@@ -84,7 +84,7 @@ public class SimplePipeline implements Pipeline, Lifecycle {
 
   // this class is copied from org.apache.catalina.core.StandardPipeline class's
   // StandardPipelineValveContext inner class.
-  protected class StandardPipelineValveContext implements ValveContext {
+  protected class    StandardPipelineValveContext implements ValveContext {
     protected int stage = 0;
     public String getInfo() {
       return null;

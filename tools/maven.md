@@ -1,9 +1,8 @@
 ---
 title: maven
-date: 2018-02-28
-categories: 
-- 工具
-tag: maven
+date: 2019-02-28
+categories: ["工具"] 
+tag: ["maven"]
 ---
 # maven
 

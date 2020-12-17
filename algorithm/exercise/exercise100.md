@@ -1,9 +1,8 @@
 ---
 title: Test
 date: 2019-12-28
-categories: 
-- 算法
-tag: 算法
+categories: ["算法"]
+tags: ["算法"]
 ---
 
 ```c

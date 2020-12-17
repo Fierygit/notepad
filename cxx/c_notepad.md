@@ -1,6 +1,6 @@
 ---
 title: Wolrd In C
-date: 2019-11-2
+date: 2019-11-02
 author: Firefly
 img:
 top: true
@@ -8,9 +8,8 @@ cover: false
 coverImg: 
 toc: true
 mathjax: false
-# categories: CXX
-# tags:
-#   - CXX
+categories: ["CXX"]
+tags: ["CXX"]
 ---
 
 

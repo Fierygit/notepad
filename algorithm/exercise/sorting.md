@@ -1,9 +1,8 @@
 ---
 title: 排序
 date: 2019-12-28
-categories: 
-- 算法
-tag: leetcode
+categories: ["算法"]
+tags: ["算法"]
 ---
 ## 排序算法
 

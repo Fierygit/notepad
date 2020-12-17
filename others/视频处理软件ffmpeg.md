@@ -2,12 +2,8 @@
 title: ffmpeg
 date: 2019-10-22
 author: Firefly
-
-categories: 工具
-
-tags:
-  - 树莓派
-  - 工具
+categories: ["工具"]
+tags: ["树莓派","工具"]
 ---
 
 # ffmpeg

@@ -1,9 +1,8 @@
 ---
 title: docker
 date: 2018-09-28
-categories: 
-- 工具
-tag: docker
+categories: ["工具"] 
+tag: ["docker"]
 ---
 docker的使用步骤：
 

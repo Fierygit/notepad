@@ -1,15 +1,9 @@
 ---
 title: 服务器自动拉取git脚本
-date: 2019-10-1
+date: 2019-10-01
 author: Firefly
-top: false
-cover: false
-# coverImg: /images/red.jpg
-toc: true
-mathjax: false
-categories: 经验
-tags:
-  - 脚本
+categories: ["经验"]
+tags: ["脚本"]
 ---
 
 

@@ -1,9 +1,8 @@
 ---
 title: conda
 date: 2018-03-28
-categories: 
-- 工具
-tag: conda
+categories: ["工具"] 
+tag: ["conda"]
 ---
 
 

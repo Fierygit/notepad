@@ -1,11 +1,9 @@
 ---
 title: matlab基础语法
-date: 2019-8-22
+date: 2019-08-22
 author: Firefly
-categories: other 
-tags:
-- matlab 
-- 数学建模 
+categories: ["other"] 
+tags: ["matlab","数学建模"] 
 ---
 
 

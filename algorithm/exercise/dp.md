@@ -1,9 +1,8 @@
 ---
 title: DP
 date: 2019-12-28
-categories: 
-- 算法
-tag: DP
+categories: ["算法"]
+tags: ["DP"]
 ---
 # <center> DP 题目汇总 </center>
 
