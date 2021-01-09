@@ -142,7 +142,8 @@ public class StandardContext
     /**
      * Create a new StandardContext component with the default basic Valve.
      */
-    public StandardContext() {
+    public 
+    StandardContext() {  
 
         super();
         pipeline.setBasic(new StandardContextValve());

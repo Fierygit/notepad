@@ -1,6 +1,7 @@
 package basic.DesignPattern.creation.PrototypePattern;
 
-import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
+
+import com.sun.xml.messaging.saaj.util.ByteOutputStream;
 
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;

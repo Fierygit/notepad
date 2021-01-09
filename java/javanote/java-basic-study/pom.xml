@@ -52,6 +52,12 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.49.Final</version>
         </dependency>
+        <dependency>
+            <groupId>com.sun.xml.messaging.saaj</groupId>
+            <artifactId>saaj-impl</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+
     </dependencies>
 
 
