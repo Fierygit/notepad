@@ -2,7 +2,7 @@
  * @Author: Firefly
  * @Date: 2021-03-22 10:36:05
  * @Descripttion:
- * @LastEditTime: 2021-03-22 11:31:22
+ * @LastEditTime: 2021-03-22 12:50:20
  */
 #include <stdio.h>
 
@@ -23,6 +23,20 @@ struct list_head {
   list_head *next;
   list_head *prev;
 };
+void list_add(list_head *add, list_head *head) {
+  if (head == add) {
+    head = add;
+    head->prev = head;
+    head->next = head;
+  } else {
+    head->prev->next = add;
+    add->prev = head->prev;
+    head->prev = add;
+    add->next = head;
+  }
+}
+#define list_for_each(pos, head) \
+  for (pos = (head)->next; pos != (head); pos = pos->next)
 
 void test_struct0() {
   struct test {
@@ -40,24 +54,25 @@ void test_list() {
     double c;
     list_head list;
   };
-
-  list_head *head;
-
-  auto add = [&](int a, short, double c) {
+  list_head *head = nullptr;
+  auto add = [&](int a, short b, double c) {
     my_list *l = (my_list *)malloc(sizeof(my_list));
-    l->a = 1, l->b = 2;
-    l->c = 3.0;
-    *l->list.next = l->list;  // l->list.next = &(l->list);
-    if (!head)
-      *head = l->list;
-    else {
-      *head->prev->next = l->list;
-      l->list.prev = head->prev;
-      *head->prev = l->list;
-      l->list.next = head;
-    }
+    l->a = a, l->b = b, l->c = c;
+    if (!head) head = &l->list;
+    list_add(&l->list, head);  // head = &l->list
   };
   add(1, 2, 3);
+  add(4, 5, 6);
+  list_head *pos;
+  printf("%p\n", head);
+  list_for_each(pos, head) {
+    auto one = container_of(pos, my_list, list);
+    printf("%d\t%d\t%d\n", one->a, one->b,
+           one->c);  // 头节点也存数据了。。没访问到。。。。
+  }
 }
 
-int main(void) { test_struct0(); }
+int main(void) {
+  test_struct0();
+  test_list();
+}
