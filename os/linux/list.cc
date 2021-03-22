@@ -2,7 +2,7 @@
  * @Author: Firefly
  * @Date: 2021-03-22 10:36:05
  * @Descripttion:
- * @LastEditTime: 2021-03-22 12:50:20
+ * @LastEditTime: 2021-03-22 12:56:24
  */
 #include <stdio.h>
 
@@ -26,8 +26,7 @@ struct list_head {
 void list_add(list_head *add, list_head *head) {
   if (head == add) {
     head = add;
-    head->prev = head;
-    head->next = head;
+    head->prev = head， head->next = head;
   } else {
     head->prev->next = add;
     add->prev = head->prev;
@@ -46,7 +45,8 @@ void test_struct0() {
   printf("%p\n", &((struct test *)100)->b);  // 104   0x68
   printf("%p\n", &((struct test *)0)->b);    // 4     0x4
 }
-
+#include <list>
+#include <vector>
 void test_list() {
   struct my_list {
     int a;
@@ -70,6 +70,9 @@ void test_list() {
     printf("%d\t%d\t%d\n", one->a, one->b,
            one->c);  // 头节点也存数据了。。没访问到。。。。
   }
+  // c++ 泛型
+  std::vector<my_list> vv;
+  std::list<my_list> ll;
 }
 
 int main(void) {
