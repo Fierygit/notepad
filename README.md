@@ -52,4 +52,6 @@ slab 缓存分配方法
 
 数学之美
 
+<img width="215" alt="image" src="https://github.com/Fierygit/notepad/assets/36060301/5f7cd161-10ed-4633-8008-0471bca4d2fe">
+
 
